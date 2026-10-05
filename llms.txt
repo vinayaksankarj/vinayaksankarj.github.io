@@ -1,18 +1,28 @@
 # Vinayak Sankar J
 
-> Senior Product Manager in Berlin with 20 years across engineering, delivery, and product. Builds developer platforms, SDKs, and apps ecosystems, leads enterprise product, and prototypes AI features. Currently leads Integrations (SDK and AI) and Core Messenger at a confidential messenger app.
+> Senior Product Manager at Wire GmbH in Berlin, a secure, end-to-end encrypted messenger built in Europe. 20 years across engineering, delivery, and product. Builds developer platforms, SDKs, and apps ecosystems, leads enterprise product, and is an AI enthusiast who prototypes fast and listens to customers and developers alike.
 
 ## Key facts
-- Role: Senior Product Manager (Program Manager, then Senior Program Manager, then Senior Product Manager since 2022)
+- Role: Senior Product Manager at Wire GmbH since 2022 (Program Manager, then Senior Program Manager, then Senior Product Manager). Leads Integrations (SDK and AI, team of 6) and Core Messenger (team of 10), supporting 10 major enterprise accounts
 - Location: Berlin, Germany. Languages: English, German
-- Experience: 20 years. Messenger app (2022 to now), EY GDS (2014 to 2022, Project Manager to Product Manager), Infosys (2006 to 2014, Software Developer to Technology Lead)
+- Earlier: EY GDS 2014 to 2022 (Project Manager to Product Manager, APAC and EMEIA products, teams of up to 100); Infosys 2006 to 2014 (Software Developer to Technology Lead, onsite US projects)
 - Certifications: PMP (PMI), Certified Scrum Master (Scrum Alliance), Disciplined Agile Scrum Master (PMI), Scrum Fundamentals Certified
 - Education: B.Tech in Electrical and Electronics Engineering, Kerala University
-- Results: 10 new paying teams from an Integrations SDK; 5 supported apps; a customer survey (70% of developers wanted TypeScript/JavaScript and Java/Kotlin) set the SDK roadmap; +24% iOS app downloads from multi-backend support and navigation changes; a long-standing enterprise gap (adminless groups) closed with no compromise to security
-- Hands-on: designed a developer documentation portal; built a working AI recording and transcription prototype as an opt-in add-on; prototypes in Figma and with AI tools
-- Employer, customer, and partner names are withheld for confidentiality
+- Results: 10 new paying teams from the Wire Integrations SDK; 5 supported apps; a customer survey (70% of developers wanted TypeScript/JavaScript and Java/Kotlin) set the SDK roadmap; +24% iOS app downloads from multi-backend support and navigation changes; Preventing Adminless Groups closed a gap open since Wire's inception, with no compromise to security
+- Product shipments: External Apps (Sep 2026), Preventing Adminless Groups (Sep 2026), Apps SDK for JavaScript and TypeScript (Sep 2026), Apps Management Phase 3 (Aug 2026), SDK Apps live in production (May 2026), Integrations SDK (Mar 2026), Multi-backend support on iOS (Dec 2025), iOS UI navigation improvements (Apr 2025)
+- Hands-on: conceived and designed the Wire developer documentation portal (dev.wire.com); built a working AI recording and transcription prototype as an opt-in add-on; prototypes in Figma and with AI tools
+- Customer and partner names are withheld for confidentiality
+
+## Working style and values
+- Patient, empathetic, listens first; takes 360-degree feedback and keeps learning
+- Described by colleagues as dependable, trustworthy, and a team player
+- Focuses on speed and quick delivery: ships early to get feedback early and improve, instead of waiting until the last minute
+- Values customers and developers equally, because a product needs both to succeed
+- Treats new challenges as chances to learn, excel, and add value
+- AI enthusiast: sees AI as a tool to extend what teams can deliver and build; likes speed and agility, fast prototyping, and early feedback
+- Journey: electrical engineer from Trivandrum, Kerala; Infosys mainframes and onsite US projects; EY India product management; Wire in Berlin since 2022
 
 ## Pages
-- [Portfolio](https://vinayaksankarj.github.io/): results, launches, case studies, skills, and experience
-- [Resume](https://vinayaksankarj.github.io/resume.html): full resume as a web page (employer names withheld)
+- [Portfolio](https://vinayaksankarj.github.io/): launches, skills, experience, and about
+- [Resume](https://vinayaksankarj.github.io/resume.html): full resume as a web page
 - [LinkedIn](https://linkedin.com/in/vinayak-sankar-j): full professional profile and contact
