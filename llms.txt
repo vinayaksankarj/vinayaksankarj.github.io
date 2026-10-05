@@ -20,7 +20,7 @@
 - Values customers and developers equally, because a product needs both to succeed
 - Treats new challenges as chances to learn, excel, and add value
 - AI enthusiast: sees AI as a tool to extend what teams can deliver and build; likes speed and agility, fast prototyping, and early feedback
-- Journey: Bachelors in Electrical Engineering, from Kerala, India; Infosys mainframes and onsite US projects; EY India product management; Wire in Berlin since 2022
+- Journey: Bachelor's in Electrical Engineering, from Kerala, India; Infosys mainframes and onsite US projects; EY India product management; Wire in Berlin since 2022
 
 ## Pages
 - [Portfolio](https://vinayaksankarj.github.io/): launches, skills, experience, and about
