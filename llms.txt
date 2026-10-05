@@ -23,6 +23,5 @@
 - Journey: Bachelor's in Electrical Engineering, from Kerala, India; Infosys mainframes and onsite US projects; EY India product management; Wire in Berlin since 2022
 
 ## Pages
-- [Portfolio](https://vinayaksankarj.github.io/): launches, skills, experience, and about
-- [Resume](https://vinayaksankarj.github.io/resume.html): full resume as a web page
+- [Portfolio](https://vinayaksankarj.github.io/): results, about, shipments, skills, and experience
 - [LinkedIn](https://linkedin.com/in/vinayak-sankar-j): full professional profile and contact
