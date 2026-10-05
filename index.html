@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vinayak Sankar J | Senior Product Manager at Wire, Berlin</title>
-<meta name="description" content="Vinayak Sankar J is a Senior Product Manager at Wire GmbH in Berlin, a secure messenger. 20 years of experience: developer platforms, SDKs and apps, enterprise product, and AI prototyping. Launches from the last year, skills, and experience.">
+<meta name="description" content="Vinayak Sankar J, Senior Product Manager at Wire GmbH in Berlin. Developer platforms, SDKs and apps, enterprise product, and AI prototyping.">
 <meta name="author" content="Vinayak Sankar J">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta property="og:title" content="Vinayak Sankar J | Senior Product Manager at Wire, Berlin">
@@ -82,6 +82,21 @@ a:hover{color:var(--navy)}
 .btn.primary:hover{background:#F0B83F;color:var(--navy)}
 .btn.ghost{border:1.5px solid #6FA5B5;color:#fff}
 .btn.ghost:hover{background:rgba(255,255,255,.1);color:#fff}
+
+
+/* hero entrance: words rise from a mask, then the rest settles in */
+@media (prefers-reduced-motion: no-preference){
+  .hero h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding:.1em 0 .16em;margin:-.1em 0 -.16em}
+  .hero h1 .w>span{display:inline-block;transform:translateY(112%);animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--i) * 75ms + 150ms)}
+  .hero .statement,.hero .role,.hero .actions{opacity:0;transform:translateY(14px);animation:settle .8s cubic-bezier(.2,.8,.2,1) forwards}
+  .hero .statement{animation-delay:.85s}
+  .hero .role{animation-delay:1s}
+  .hero .actions{animation-delay:1.15s}
+  .portrait{opacity:0;transform:translateX(18px);animation:slidein .9s cubic-bezier(.2,.8,.2,1) .4s forwards}
+}
+@keyframes rise{to{transform:none}}
+@keyframes settle{to{opacity:1;transform:none}}
+@keyframes slidein{to{opacity:1;transform:none}}
 
 /* sections */
 section{padding:72px 0}
@@ -320,7 +335,8 @@ footer a{color:#CFE6EE}
 <div class="hero">
   <div class="wrap hero-grid">
     <div class="hero-text">
-    <h1 aria-label="I ship early, listen hard, and turn feedback into products people depend on."><span aria-hidden="true" data-decrypt>I ship early, listen hard, and turn feedback into products people depend on.</span></h1>
+    <h1>I ship early, listen hard, and turn feedback into products people depend on.</h1>
+    <script>(function(){var h=document.querySelector(".hero h1");if(!h||matchMedia("(prefers-reduced-motion: reduce)").matches)return;var w=h.textContent.trim().split(/\s+/);h.textContent="";w.forEach(function(t,i){var o=document.createElement("span");o.className="w";var n=document.createElement("span");n.textContent=t;n.style.setProperty("--i",i);o.appendChild(n);h.appendChild(o);if(i<w.length-1)h.appendChild(document.createTextNode(" "))})})();</script>
     <p class="statement">I have spent 20 years building things that solve real problems for real users. I started as a developer writing mainframe code, learned to lead teams of up to 100, and found my place in product. I go after the problems customers keep raising, prototype before I specify, and bring teams along with me. I like it best when a rough idea starts to work.</p>
     <p class="role">Senior Product Manager at Wire GmbH, a secure, end-to-end encrypted messenger built in Europe. I lead Integrations (SDK and AI) and Core Messenger, from customer discovery to launch.</p>
     <div class="actions">
@@ -461,22 +477,5 @@ footer a{color:#CFE6EE}
   <div class="wrap"><a href="https://linkedin.com/in/vinayak-sankar-j" rel="noopener">Vinayak Sankar J</a>. Berlin, Germany. Views are my own and do not speak for my employer. <a href="resume.html">Resume</a> &middot; <a href="impressum.html">Impressum and privacy</a></div>
 </footer>
 
-<script>
-(function(){
-  var el=document.querySelector('[data-decrypt]');
-  if(!el||window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var final=el.textContent, chars='ABCDEF0123456789#$%&*+=?';
-  var h1=el.parentElement; h1.style.minHeight=h1.offsetHeight+'px';
-  var frame=0,total=34;
-  var timer=setInterval(function(){
-    frame++;
-    var reveal=Math.floor(final.length*frame/total);
-    el.textContent=final.split('').map(function(c,i){
-      return (c===' '||i<reveal)?c:chars.charAt(Math.floor(Math.random()*chars.length));
-    }).join('');
-    if(frame>=total){clearInterval(timer);el.textContent=final;}
-  },45);
-})();
-</script>
 </body>
 </html>
