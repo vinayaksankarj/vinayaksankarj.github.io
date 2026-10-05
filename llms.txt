@@ -1,0 +1,18 @@
+# Vinayak Sankar J
+
+> Senior Product Manager in Berlin with 20 years across engineering, delivery, and product. Builds developer platforms, SDKs, and apps ecosystems, leads enterprise product, and prototypes AI features. Currently leads Integrations (SDK and AI) and Core Messenger at a confidential messenger app.
+
+## Key facts
+- Role: Senior Product Manager (Program Manager, then Senior Program Manager, then Senior Product Manager since 2022)
+- Location: Berlin, Germany. Languages: English, German
+- Experience: 20 years. Messenger app (2022 to now), EY GDS (2014 to 2022, Project Manager to Product Manager), Infosys (2006 to 2014, Software Developer to Technology Lead)
+- Certifications: PMP (PMI), Certified Scrum Master (Scrum Alliance), Disciplined Agile Scrum Master (PMI), Scrum Fundamentals Certified
+- Education: B.Tech in Electrical and Electronics Engineering, Kerala University
+- Results: 10 new paying teams from an Integrations SDK; 5 supported apps; a customer survey (70% of developers wanted TypeScript/JavaScript and Java/Kotlin) set the SDK roadmap; +24% iOS app downloads from multi-backend support and navigation changes; a long-standing enterprise gap (adminless groups) closed with no compromise to security
+- Hands-on: designed a developer documentation portal; built a working AI recording and transcription prototype as an opt-in add-on; prototypes in Figma and with AI tools
+- Employer, customer, and partner names are withheld for confidentiality
+
+## Pages
+- [Portfolio](https://vinayaksankarj.github.io/): results, launches, case studies, skills, and experience
+- [Resume](https://vinayaksankarj.github.io/resume.html): full resume as a web page (employer names withheld)
+- [LinkedIn](https://linkedin.com/in/vinayak-sankar-j): full professional profile and contact
