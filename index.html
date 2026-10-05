@@ -8,6 +8,14 @@
 <meta property="og:title" content="Vinayak Sankar J | Senior Product Manager">
 <meta property="og:description" content="Secure enterprise platforms and developer ecosystems. Launches, case studies, and experience.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://vinayaksankarj.github.io/">
+<meta property="og:site_name" content="Vinayak Sankar J">
+<meta property="og:image" content="https://vinayaksankarj.github.io/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vinayak Sankar J, Senior Product Manager, secure enterprise platforms and developer ecosystems">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://vinayaksankarj.github.io/">
 <style>
 @font-face{font-family:"Fraunces";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/fraunces-latin-500-normal.woff2) format("woff2")}
 @font-face{font-family:"Fraunces";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/fraunces-latin-600-normal.woff2) format("woff2")}
@@ -40,6 +48,8 @@ a:hover{color:var(--navy)}
 .bar{background:var(--navy);color:#fff}
 .bar .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:18px;padding-bottom:18px}
 .bar strong{font-weight:600;letter-spacing:.01em}
+.bar .name{color:#fff;text-decoration:none}
+.bar .name:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
 .bar nav{display:flex;gap:22px;flex-wrap:wrap}
 .bar nav a{color:#CFE6EE;font-size:15px;text-decoration:none}
 .bar nav a:hover{color:#fff;text-decoration:underline}
@@ -107,6 +117,21 @@ summary .s{display:block;color:var(--muted);margin-top:4px}
 .cols ul{list-style:none}
 .cols li{padding:5px 0;border-bottom:1px solid var(--line)}
 
+
+/* skills: prominent band */
+#skills{background:var(--mist);border-top:none;padding:84px 0}
+#skills h2{font-size:clamp(32px,4.6vw,46px)}
+#skills .lede{color:var(--ink);font-size:19px;margin-bottom:40px}
+#skills .cols{grid-template-columns:repeat(4,1fr);gap:28px 28px}
+@media (max-width:960px){#skills .cols{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){#skills .cols{grid-template-columns:1fr}}
+#skills .col{border-top:4px solid var(--teal);padding-top:16px}
+#skills .col h3{font-family:var(--serif);font-weight:600;font-size:22px;color:var(--navy);margin-bottom:12px}
+#skills .col li{font-size:17.5px;font-weight:500;border-bottom:1px solid #B9CDD2;padding:7px 0}
+#skills .col.cred{background:var(--navy);border-top-color:var(--amber);padding:16px 20px 20px}
+#skills .col.cred h3{color:#fff}
+#skills .col.cred li{color:#fff;border-bottom-color:#2C5560}
+
 /* contact */
 .contact{background:var(--navy);color:#fff}
 .contact h2{color:#fff}
@@ -133,11 +158,12 @@ footer a{color:#CFE6EE}
 
 <header class="bar">
   <div class="wrap">
-    <strong>Vinayak Sankar J</strong>
+    <strong><a class="name" href="https://linkedin.com/in/vinayak-sankar-j" rel="noopener" aria-label="Vinayak Sankar J on LinkedIn">Vinayak Sankar J</a></strong>
     <nav aria-label="Sections">
       <a href="#results">Results</a>
       <a href="#launches">Launches</a>
       <a href="#cases">Case studies</a>
+      <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -148,7 +174,7 @@ footer a{color:#CFE6EE}
 <div class="hero">
   <div class="wrap">
     <h1 aria-label="I build secure products that enterprises and developers choose to build on."><span aria-hidden="true" data-decrypt>I build secure products that enterprises and developers choose to build on.</span></h1>
-    <p class="role">Senior Product Manager at a confidential secure messenger app, leading Integrations (SDK and AI) and Core Messenger for security-, compliance-, and regulation-driven enterprises.</p>
+    <p class="role">Senior Product Manager at a confidential secure messenger app, leading Integrations (SDK and AI) and Core Messenger for enterprises where security, compliance, and regulation come first.</p>
     <div class="actions">
       <a class="btn primary" href="#cases">Read the case studies</a>
       <a class="btn ghost" href="#launches">See the launches</a>
@@ -178,12 +204,12 @@ footer a{color:#CFE6EE}
     <div class="group">
       <h3>Integrations and Apps SDK</h3>
       <ul class="launches">
+        <li><a href="https://wire.com/en/blog/sdk-apps-live-in-production" rel="noopener">SDK Apps live in production</a><span>Brought a partner&rsquo;s SDK-built app into the messenger.</span></li>
+        <li><a href="https://wire.com/en/blog/wire-apps-management-phase-3" rel="noopener">Apps Management, Phase 3</a><span>Easier admin control of apps, a core enterprise and security requirement.</span></li>
         <li><a href="https://wire.com/en/blog/the-new-wire-integrations-sdk-a-new-foundation-for-secure-collaboration-ecosystems" rel="noopener">Integrations SDK</a><span>A new foundation for secure collaboration ecosystems.</span></li>
         <li><a href="https://dev.wire.com" rel="noopener">Developer documentation portal</a><span>I conceived the documentation site and defined every flow and the document structure.</span></li>
-        <li><a href="https://wire.com/en/blog/sdk-apps-live-in-production" rel="noopener">SDK Apps live in production</a><span>Brought a partner&rsquo;s SDK-built app into the messenger.</span></li>
         <li><a href="https://wire.com/en/blog/wire-apps-sdk-javascript-and-typescript" rel="noopener">Apps SDK for JavaScript and TypeScript</a><span>Built on what customers&rsquo; developers told us they wanted to use.</span></li>
         <li><a href="https://wire.com/en/blog/external-apps-share-with-every-team-on-wire" rel="noopener">External Apps</a><span>Share apps with every team on the messenger, toward a self-sustaining ecosystem and a future marketplace.</span></li>
-        <li><a href="https://wire.com/en/blog/wire-apps-management-phase-3" rel="noopener">Apps Management, Phase 3</a><span>Easier admin control of apps, a core enterprise and security requirement.</span></li>
       </ul>
     </div>
 
@@ -245,6 +271,19 @@ footer a{color:#CFE6EE}
   </div>
 </section>
 
+<section id="skills" aria-labelledby="h-skills">
+  <div class="wrap">
+    <h2 id="h-skills">Skills and credentials</h2>
+    <p class="lede">The craft behind the results, and the certifications that back it.</p>
+    <div class="cols">
+      <div class="col"><h3>Product</h3><ul><li>Roadmapping and strategy</li><li>Discovery and customer interviews</li><li>Prioritization and PRDs</li><li>Go-to-market and launch</li></ul></div>
+      <div class="col"><h3>AI and prototyping</h3><ul><li>Figma</li><li>AI-assisted prototyping for demos and user testing</li></ul></div>
+      <div class="col"><h3>Delivery and leadership</h3><ul><li>Scrum, Kanban, Agile coaching</li><li>Jira, Azure DevOps</li><li>Stakeholder management</li><li>Global team leadership</li></ul></div>
+      <div class="col cred"><h3>Certifications</h3><ul><li>PMP (PMI)</li><li>Certified Scrum Master (Scrum Alliance)</li><li>Disciplined Agile Scrum Master (PMI)</li><li>Scrum Fundamentals Certified</li></ul></div>
+    </div>
+  </div>
+</section>
+
 <section id="experience" aria-labelledby="h-exp">
   <div class="wrap">
     <h2 id="h-exp">Experience</h2>
@@ -254,7 +293,7 @@ footer a{color:#CFE6EE}
         <div class="when">2022 to now</div>
         <div class="what">Program Manager, then Senior Program Manager, then Senior Product Manager</div>
         <div class="where">Confidential secure messenger app, Berlin</div>
-        <p>Own the roadmap for Integrations (team of 6) and Core Messenger (team of 10), supporting 10 major enterprise accounts in security-, compliance-, and legal and regulatory sectors. Joined the company&rsquo;s Leadership Team and introduced Scrum and Kanban across teams.</p>
+        <p>Own the roadmap for Integrations (team of 6) and Core Messenger (team of 10), supporting 10 major enterprise accounts in sectors where security, compliance, and legal demands come first. Joined the company&rsquo;s Leadership Team and introduced Scrum and Kanban across teams.</p>
       </li>
       <li>
         <div class="when">2014 to 2022</div>
@@ -272,17 +311,6 @@ footer a{color:#CFE6EE}
   </div>
 </section>
 
-<section aria-labelledby="h-skills">
-  <div class="wrap">
-    <h2 id="h-skills">Skills and credentials</h2>
-    <div class="cols" style="margin-top:28px">
-      <div><h3>Product</h3><ul><li>Roadmapping and strategy</li><li>Discovery and customer interviews</li><li>Prioritization and PRDs</li><li>Go-to-market and launch</li></ul></div>
-      <div><h3>AI and prototyping</h3><ul><li>Figma</li><li>AI-assisted prototyping for demos and user testing</li></ul></div>
-      <div><h3>Delivery and leadership</h3><ul><li>Scrum, Kanban, Agile coaching</li><li>Jira, Azure DevOps</li><li>Stakeholder management</li><li>Global team leadership</li></ul></div>
-      <div><h3>Certifications</h3><ul><li>PMP (PMI)</li><li>Certified Scrum Master (Scrum Alliance)</li><li>Disciplined Agile Scrum Master (PMI)</li><li>Scrum Fundamentals Certified</li></ul></div>
-    </div>
-  </div>
-</section>
 </main>
 
 <section id="contact" class="contact" aria-labelledby="h-contact">
@@ -290,12 +318,11 @@ footer a{color:#CFE6EE}
     <h2 id="h-contact">Let&rsquo;s talk</h2>
     <p>If you are building a platform where security and developers both matter, I would like to hear about it.</p>
     <a class="btn primary" href="https://linkedin.com/in/vinayak-sankar-j" rel="noopener">Message me on LinkedIn</a>
-    <a class="btn ghost" href="Vinayak_Sankar_J_Resume.pdf">Download resume (PDF)</a>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">Vinayak Sankar J. Berlin, Germany. Views are my own and do not speak for my employer. <a href="impressum.html">Impressum and privacy</a></div>
+  <div class="wrap"><a href="https://linkedin.com/in/vinayak-sankar-j" rel="noopener">Vinayak Sankar J</a>. Berlin, Germany. Views are my own and do not speak for my employer. <a href="impressum.html">Impressum and privacy</a></div>
 </footer>
 
 <script>
